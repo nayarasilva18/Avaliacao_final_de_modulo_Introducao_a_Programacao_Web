@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Home 
+    </title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="adicionar">
+        <button id="logout">Sair</button>
+        <h1>Meus recados</h1>
+        <form id="formadicionar">
+          <input type="text" class="input-adicionar" id="descr" placeholder=" Descrição"/>
+          <input type="text" class="input-adicionar" id="det" placeholder=" Detalhamento"/>
+          <input type="submit" id="btn-adicionar" value="Salvar" />
+        </form>
+      </section>
+      <section class="visualizar">
+        <table>
+          <thead>
+            <tr>
+              <th class="numeacao">#</th>
+              <th>Descrição</th>
+              <th>Detalhamento</th>
+              <th class="numeacao">Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tabela"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="/js/home.js"></script>
+  </body>
+</html>
