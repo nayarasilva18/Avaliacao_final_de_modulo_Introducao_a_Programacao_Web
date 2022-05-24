@@ -47,7 +47,7 @@ function verificarSenha() {
     validaSenha = false;
   } else if (senhaValida === null) {
     labelSenha.innerHTML =
-      "Senha: * Deve conter uma letra maiuscula e caracter";
+      "Senha: * Deve conter uma letra maiuscula e um caracter";
     validSenha = false;
   } else {
     labelSenha.style.color = "#8c6658";
@@ -113,7 +113,7 @@ function salvarLocalStorage() {
   let irLogin = confirm("Deseja ir para a página de login?");
 
   if (irLogin) {
-    window.location = "./login.html";
+    window.location = "./index.html";
   }
 
   function buscaListaUser() {

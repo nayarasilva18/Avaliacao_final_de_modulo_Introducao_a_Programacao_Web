@@ -1,7 +1,7 @@
 let login = window.sessionStorage.getItem("login");
 
 if (!login) {
-  window.location = "./login.html";
+  window.location = "./index.html";
 }
 
 
@@ -96,7 +96,7 @@ function mostrarRecados() {
 
 function sairLogin() {
   window.sessionStorage.clear();
-  window.location = "./login.html";
+  window.location = "./index.html";
 }
 
 function editarRecado(indiceDoRecado) {
